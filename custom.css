@@ -95,7 +95,16 @@ img { display: block; max-width: 100%; }
   margin-top: 30px;
   flex-wrap: wrap;
 }
+.media-tile {
+  max-width: 100%;
+  width: 100%;
+}
 
+.media-tile img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 .hero-nav a {
   color: #fff;
   text-decoration: none;
